@@ -1,0 +1,60 @@
+//Mixins
+@mixin reset
+    * 
+        margin: 0
+        padding: 0
+        box-sizing: border-box
+        font-family: "Lato", sans-serif
+    a
+        text-decoration: none
+        &:hover
+            cursor: pointer
+    li
+        list-style: none
+    body
+        background: #ffffff
+
+@mixin main-hover
+    transition: .3s
+
+    &:hover
+        color: $black
+//placeholders
+%title-text-shadow
+    text-shadow: 3px 2px $black
+
+%section-title
+    font-size: 3rem
+    margin-top: 2rem
+    text-align: center
+//Botões    
+.btn
+    padding: .5rem 1rem
+    border: 1px solid $light-color
+    text-transform: uppercase
+    border-radius: 8px
+    transition: .3s
+    color: $light-color
+
+    &:hover
+        border-color: $light-color
+        color: $light-color
+    
+    &-primary
+        background-color: $primary-color
+        border-color: $primary-color
+
+        &:hover
+            background-color: transparent
+
+    &-rounded
+        margin: 1rem
+        border-radius: 2rem
+        padding: 1rem 1.5rem
+        color: $black
+
+        &:hover
+            color: $black
+            border-color: $black
+
+    
