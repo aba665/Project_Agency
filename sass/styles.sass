@@ -163,3 +163,49 @@
             color: $light-color
             padding: 1rem
             font-size: 1.3rem
+
+footer
+    background-color: #000000bb
+    color: $primary-color
+    padding: 5rem 2rem
+
+    .footer-container
+        max-width: 12000px
+        margin: 0 auto
+        display: flex
+        flex-wrap: wrap
+        
+        .footer-title
+            color: $light-color
+            font-weight: bold
+            margin-bottom: 1rem
+        
+    .footer-desc-container, .footer-links-container
+        width: 50%
+
+    .footer-desc-container
+        p
+            width: 80%
+            line-height: 1.3
+
+    .footer-links-container
+        display: flex
+
+        &-list
+            padding: 0 1rem
+
+            li
+                margin-bottom: .5rem
+
+                a
+                    color: $primary-color
+                    transition: .5s
+
+                    &:hover
+                        color: $light-color
+    .footer-copy-right-container
+        width: 100%
+        margin-top: 3rem
+
+        p
+            margin-bottom: 1rem
