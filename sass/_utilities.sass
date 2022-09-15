@@ -27,6 +27,18 @@
     font-size: 3rem
     margin-top: 2rem
     text-align: center
+
+%center-bg
+    background-size: cover
+    background-position: center
+
+%card-hover
+    .job-card-title, .job-card-cover, .job-card-description
+        opacity: 0
+    
+    &:hover
+        .job-card-title, .job-card-cover, .job-card-description
+            opacity: 1   
 //Botões    
 .btn
     padding: .5rem 1rem
