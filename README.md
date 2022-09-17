@@ -13,6 +13,6 @@ Projeto foi criado com o intuito de criar uma página responsiva, com um designe
    
 ## link do Projetinho 
 
- [Se quiser da uma olhada](https://goodmovies-frontend.herokuapp.com/)
+ [Se quiser da uma olhada](https://aba665.github.io/Project_Agency/)
 
 😃 fuiii ✋ 
